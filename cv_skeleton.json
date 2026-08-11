@@ -1,0 +1,86 @@
+{
+  "candidate": {
+    "name": "HICHEM SLIMANE CHAIB",
+    "email": "hichemslimane.chaib@gmail.com",
+    "phone": "+213 657 435 071",
+    "linkedin": "linkedin.com/in/chaib-hichem-slimane-8230b91a3",
+    "github": "github.com/HashCh",
+    "location": "Algiers, Algeria"
+  },
+  "ai_fills": {
+    "job_title": "AI fills this based on job offer",
+    "summary": "AI fills 3-4 tailored sentences",
+    "skills": ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7", "skill8"]
+  },
+  "experience": [
+    {
+      "company": "Djezzy Algeria",
+      "role": "Packet Core Administrator",
+      "dates": "June 2026 - Present",
+      "location": "Algiers, Algeria",
+      "show_for": ["telecom", "cloud", "mixed"],
+      "all_bullets": [
+        "Handle core packet PS engineering and follow up new product and NE delivery until live network",
+        "Follow new feature additions to the current network (UNC AMF, UNC SMF, UDG, CMM, CMG, USN, UGW)",
+        "Support 2G, 3G, 4G and 5G NSA core network operations",
+        "Monitor network KPIs and support service stabilization post-deployment",
+        "Coordinate with vendors Nokia, Huawei and Ericsson for integration and troubleshooting",
+        "Perform preventive maintenance and health checks on all core network platforms"
+      ],
+      "ai_selected_bullets": "AI picks 3-5 most relevant bullets from all_bullets"
+    },
+    {
+      "company": "Huawei Algeria",
+      "role": "Cloud Core Network Engineer",
+      "dates": "September 2022 - May 2026",
+      "location": "Algiers, Algeria",
+      "show_for": ["telecom", "cloud", "mixed"],
+      "all_bullets": [
+        "Designed Huawei Core Network architecture on Telco Cloud (Bare Metal and Containers)",
+        "Led Core Network Swap projects from Nokia to Huawei — planned integration and migration phases",
+        "Integrated GMLC and E-SMLC for Lawful Interception (LCS service type)",
+        "Launched 5G NSA — prepared rollout readiness, executed First Call and First Data Session validation",
+        "Implemented probing and Lawful Interception via DCGW (PTAP to Aggregator)",
+        "Integrated DRA with HSS, OCS, PCRF, IMS, EIR and MME — configured S6a, Gx, Gy, S13, SLG",
+        "Performed CMG CUPS Integration (vSGW, vPGW, vGGSN) — configured S11, S5/S8, Gx, Gy, PFCP",
+        "Managed certificate lifecycle, SeCGW integration and IPsec testing on S1-MME interface",
+        "Coordinated Core, Transport, IT teams and multi-vendor activities across major projects",
+        "Enabled LTE-NR dual connectivity (Option 3X) — configured NR access and RAT restrictions",
+        "Performed VNF acceptance for NCM, PKI, CMG_CP and CMG_UP platforms"
+      ],
+      "ai_selected_bullets": "AI picks 3-5 most relevant bullets from all_bullets"
+    },
+    {
+      "company": "Freelance AI Automation Projects",
+      "role": "AI Automation Specialist",
+      "dates": "2025 - Present",
+      "location": "Remote",
+      "show_for": ["automation", "mixed"],
+      "all_bullets": [
+        "Built WhatsApp AI Assistant with memory using n8n, Twilio and Google Gemini — handles customer conversations 24/7",
+        "Built Google Maps Business Extractor using chained HTTP Request nodes and Google Maps API — generates live lead reports",
+        "Built AI Document Processor — reads PDFs from Google Drive, extracts structured data, saves to Google Sheets automatically",
+        "Built AI Email Automation Pipeline — Google Forms trigger, AI segmentation, personalized Gmail delivery",
+        "Built CV Tailoring Agent — AI reads job offers and generates tailored CVs and cover letters automatically"
+      ],
+      "ai_selected_bullets": "AI picks 3-5 most relevant bullets from all_bullets"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master's Degree — Computer Science, Networking & Distributed Systems",
+      "institution": "University of Saida, Algeria",
+      "dates": "2020 - 2022"
+    },
+    {
+      "degree": "Bachelor's Degree — Computer Science",
+      "institution": "University of Saida, Algeria",
+      "dates": "2017 - 2020"
+    }
+  ],
+  "languages": [
+    {"language": "Arabic", "level": "Native"},
+    {"language": "French", "level": "Professional"},
+    {"language": "English", "level": "Professional"}
+  ]
+}
