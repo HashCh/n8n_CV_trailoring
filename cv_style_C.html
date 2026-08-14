@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Helvetica Neue',Arial,sans-serif;color:#1a1a1a;font-size:10px;margin:0;line-height:1.5}
+.layout{display:grid;grid-template-columns:200px 1fr;min-height:100vh}
+.sidebar{background:#1e293b;padding:28px 18px;color:#fff}
+.main{padding:32px 28px;background:#fff}
+.s-name{font-size:16px;font-weight:700;color:#fff;margin-bottom:2px;line-height:1.2}
+.s-title{font-size:9px;color:#94a3b8;margin-bottom:16px}
+.s-section{font-size:8.5px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#7C6DFA;margin:12px 0 5px;border-bottom:0.5px solid #334155;padding-bottom:3px}
+.s-item{font-size:9px;color:#cbd5e1;margin-bottom:3px}
+.m-section{font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#1e293b;border-bottom:2px solid #1e293b;margin:14px 0 6px;padding-bottom:3px}
+.summary{font-size:10px;color:#333;line-height:1.6}
+.exp-block{margin-bottom:12px}
+.exp-title{font-size:10px;font-weight:700;color:#1a1a1a}
+.exp-date{font-size:9px;color:#888;margin-bottom:4px}
+.bullet{font-size:9.5px;color:#444;padding-left:10px;margin-bottom:2px}
+.edu-item{margin-bottom:8px}
+.edu-degree{font-size:10px;font-weight:600}
+.edu-detail{font-size:9px;color:#888}
+</style>
+</head>
+<body>
+<div class="layout">
+  <div class="sidebar">
+    <div class="s-name">[[CANDIDATE_NAME]]</div>
+    <div class="s-title">[[JOB_TITLE]]</div>
+    <div class="s-section">Contact</div>
+    <div class="s-item">[[PHONE]]</div>
+    <div class="s-item">[[EMAIL]]</div>
+    <div class="s-item">[[LINKEDIN]]</div>
+    <div class="s-item">[[GITHUB]]</div>
+    <div class="s-item">[[LOCATION]]</div>
+    <div class="s-section">Core Skills</div>
+    <div class="s-item">[[SKILLS]]</div>
+    <div class="s-section">Education</div>
+    <div class="s-item">Master's — CS Networking</div>
+    <div class="s-item">University of Saida, 2022</div>
+    <div class="s-item">Bachelor's — CS</div>
+    <div class="s-item">University of Saida, 2020</div>
+    <div class="s-section">Languages</div>
+    <div class="s-item">Arabic — Native</div>
+    <div class="s-item">French — Professional</div>
+    <div class="s-item">English — Professional</div>
+  </div>
+  <div class="main">
+    <div class="m-section">Professional Summary</div>
+    <div class="summary">[[SUMMARY]]</div>
+    <div class="m-section">Professional Experience</div>
+    <div class="exp-block">
+      <div class="exp-title">[[EXPERIENCE_1_HEADER]]</div>
+      <div class="exp-date">[[EXPERIENCE_1_DATES]]</div>
+      <div class="bullet">[[EXPERIENCE_1_BULLETS]]</div>
+    </div>
+    <div class="exp-block">
+      <div class="exp-title">[[EXPERIENCE_2_HEADER]]</div>
+      <div class="exp-date">[[EXPERIENCE_2_DATES]]</div>
+      <div class="bullet">[[EXPERIENCE_2_BULLETS]]</div>
+    </div>
+    <div class="exp-block">
+      <div class="exp-title">[[EXPERIENCE_3_HEADER]]</div>
+      <div class="exp-date">[[EXPERIENCE_3_DATES]]</div>
+      <div class="bullet">[[EXPERIENCE_3_BULLETS]]</div>
+    </div>
+    <div class="exp-block">
+      <div class="exp-title">[[EXPERIENCE_4_HEADER]]</div>
+      <div class="exp-date">[[EXPERIENCE_4_DATES]]</div>
+      <div class="bullet">[[EXPERIENCE_4_BULLETS]]</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

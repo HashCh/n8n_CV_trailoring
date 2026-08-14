@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Helvetica Neue',Arial,sans-serif;color:#1a1a1a;font-size:10px;padding:45px;max-width:800px;margin:0 auto;line-height:1.6}
+.name{font-size:30px;font-weight:300;letter-spacing:4px;text-transform:uppercase;color:#1a1a1a}
+.title{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#888;margin-bottom:5px;margin-top:4px}
+.contact{font-size:9px;color:#888;margin-bottom:8px;letter-spacing:0.5px}
+.divider{border:none;border-top:0.5px solid #ddd;margin:10px 0}
+.section-head{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:#888;margin:16px 0 6px}
+.summary{font-size:10px;color:#333;line-height:1.7}
+.skills{font-size:10px;color:#333;line-height:1.7}
+.exp-block{margin-bottom:14px}
+.exp-title{font-size:10.5px;font-weight:600;letter-spacing:0.5px;color:#1a1a1a}
+.exp-date{font-size:9px;color:#aaa;letter-spacing:0.5px;margin-bottom:5px}
+.bullet{font-size:9.5px;color:#555;padding-left:14px;margin-bottom:2px}
+.edu-item{margin-bottom:10px}
+.edu-degree{font-size:10px;font-weight:600;letter-spacing:0.3px}
+.edu-detail{font-size:9px;color:#aaa;letter-spacing:0.3px}
+.lang-item{font-size:10px;color:#555;letter-spacing:0.3px}
+</style>
+</head>
+<body>
+<div class="name">[[CANDIDATE_NAME]]</div>
+<div class="title">[[JOB_TITLE]]</div>
+<div class="contact">[[PHONE]] &nbsp;&nbsp;|&nbsp;&nbsp; [[EMAIL]] &nbsp;&nbsp;|&nbsp;&nbsp; [[LINKEDIN]] &nbsp;&nbsp;|&nbsp;&nbsp; [[GITHUB]] &nbsp;&nbsp;|&nbsp;&nbsp; [[LOCATION]]</div>
+<hr class="divider">
+
+<div class="section-head">Professional Summary</div>
+<div class="summary">[[SUMMARY]]</div>
+<hr class="divider">
+
+<div class="section-head">Core Competencies</div>
+<div class="skills">[[SKILLS]]</div>
+<hr class="divider">
+
+<div class="section-head">Professional Experience</div>
+
+<div class="exp-block">
+<div class="exp-title">[[EXPERIENCE_1_HEADER]]</div>
+<div class="exp-date">[[EXPERIENCE_1_DATES]]</div>
+<div class="bullet">[[EXPERIENCE_1_BULLETS]]</div>
+</div>
+
+<div class="exp-block">
+<div class="exp-title">[[EXPERIENCE_2_HEADER]]</div>
+<div class="exp-date">[[EXPERIENCE_2_DATES]]</div>
+<div class="bullet">[[EXPERIENCE_2_BULLETS]]</div>
+</div>
+
+<div class="exp-block">
+<div class="exp-title">[[EXPERIENCE_3_HEADER]]</div>
+<div class="exp-date">[[EXPERIENCE_3_DATES]]</div>
+<div class="bullet">[[EXPERIENCE_3_BULLETS]]</div>
+</div>
+
+<div class="exp-block">
+<div class="exp-title">[[EXPERIENCE_4_HEADER]]</div>
+<div class="exp-date">[[EXPERIENCE_4_DATES]]</div>
+<div class="bullet">[[EXPERIENCE_4_BULLETS]]</div>
+</div>
+
+<hr class="divider">
+<div class="section-head">Education</div>
+<div class="edu-item">
+<div class="edu-degree">Master's Degree — Computer Science, Networking & Distributed Systems</div>
+<div class="edu-detail">2020–2022 &nbsp;|&nbsp; University of Saida, Algeria</div>
+</div>
+<div class="edu-item">
+<div class="edu-degree">Bachelor's Degree — Computer Science</div>
+<div class="edu-detail">2017–2020 &nbsp;|&nbsp; University of Saida, Algeria</div>
+</div>
+
+<hr class="divider">
+<div class="section-head">Languages</div>
+<div class="lang-item">Arabic — Native &nbsp;&nbsp;|&nbsp;&nbsp; French — Professional &nbsp;&nbsp;|&nbsp;&nbsp; English — Professional</div>
+</body>
+</html>
