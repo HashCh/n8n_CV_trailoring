@@ -1,0 +1,89 @@
+{
+  "candidate": {
+    "name": "MOHAMED ATTOUCHE",
+    "email": "att.med.571@gmail.com",
+    "phone": "+213 554 546 476",
+    "linkedin": "",
+    "github": "",
+    "location": "Algiers, Algeria"
+  },
+  "experience": [
+    {
+      "company": "Djezzy",
+      "role": "CS & IMS Core Administrator",
+      "dates": "April 2026 - Present",
+      "location": "Algiers, Algeria",
+      "show_for": ["telecom", "cloud", "mixed"],
+      "bullets": [
+        "Operation and maintenance of CS Core and IMS network elements ensuring high availability",
+        "Troubleshooting and resolution of network incidents with minimal service impact",
+        "Network integration, configuration, and software upgrades across core platforms",
+        "VoLTE and IMS service support and optimization",
+        "Signaling analysis including SS7, SIGTRAN, SIP, Diameter, and MAP protocols",
+        "Performance monitoring and optimization of CS Core and IMS elements",
+        "Support for SRVCC/eSRVCC and interworking scenarios",
+        "Technical support and emergency handling for mission-critical services"
+      ]
+    },
+    {
+      "company": "Ooredoo Algeria",
+      "role": "Consultant — BO CS Core Network Operations Engineer",
+      "dates": "September 2024 - April 2026",
+      "location": "Algiers, Algeria",
+      "show_for": ["telecom", "cloud", "mixed"],
+      "bullets": [
+        "Troubleshooting Nokia Core Network elements including OMSS, OMGW, HLR, HSS, STP, and ESC (Tietoevry) systems",
+        "Resolution of critical incidents, alarms, and service degradations to ensure uninterrupted network operations",
+        "Execution of preventive and corrective maintenance activities across all core nodes",
+        "Performing routine configuration backups and database backups for core network stability and recovery readiness",
+        "Implementation of optimization actions for core network elements and interfaces including S6A, MAP, CAP",
+        "Performing POI activities and integration of BSC/RNC with Nokia MSS and MGW",
+        "Collaborated with cross-functional teams on network integration and migration projects"
+      ]
+    },
+    {
+      "company": "Ooredoo Algeria",
+      "role": "Network Management Center Engineer",
+      "dates": "April 2023 - September 2024",
+      "location": "Algiers, Algeria",
+      "show_for": ["telecom", "mixed"],
+      "bullets": [
+        "Monitor and analyze network traffic, performance, and service quality to ensure optimal network operation",
+        "Investigate, diagnose, and resolve network outages, faults, and performance degradation issues",
+        "Maintain and support network monitoring tools and systems for real-time visibility and alerting",
+        "Collaborate with cross-functional teams to design, implement, and maintain robust network infrastructure",
+        "Develop and maintain technical documentation including network configurations, procedures, and best practices",
+        "Provide technical guidance and support to junior team members and operational teams"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master in Telecommunications",
+      "institution": "USTHB, Algiers",
+      "dates": "2021 - 2022"
+    },
+    {
+      "degree": "Bachelor in Telecommunications",
+      "institution": "USTHB, Algiers",
+      "dates": "2019 - 2020"
+    }
+  ],
+  "skills": [
+    "Huawei & Nokia Core Networks",
+    "IMS / VoLTE",
+    "LTE / EPC (MME, SGW, PGW)",
+    "CS Core Networks (MSC, MGW, HLR)",
+    "SS7, SIGTRAN, SIP, Diameter, MAP",
+    "Network Troubleshooting & Fault Management",
+    "Network Integration & Migration",
+    "Performance Monitoring & Optimization",
+    "SRVCC / eSRVCC",
+    "Network Monitoring & Analysis"
+  ],
+  "languages": [
+    {"language": "Arabic", "level": "Native"},
+    {"language": "French", "level": "Professional"},
+    {"language": "English", "level": "Professional"}
+  ]
+}
