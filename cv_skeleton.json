@@ -76,7 +76,23 @@
       "institution": "University of Saida, Algeria",
       "dates": "2017 - 2020"
     }
-  ],
+  ],"certifications": [
+  {
+    "name": "CCNA Routing and Switching",
+    "issuer": "Cisco",
+    "year": ""
+  },
+  {
+    "name": "HCIA Datacom",
+    "issuer": "Huawei",
+    "year": ""
+  },
+  {
+    "name": "HCIA Cloud",
+    "issuer": "Huawei",
+    "year": ""
+  }
+],
   "languages": [
     {"language": "Arabic", "level": "Native"},
     {"language": "French", "level": "Professional"},
