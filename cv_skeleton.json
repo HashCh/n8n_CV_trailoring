@@ -60,8 +60,7 @@
         "Built WhatsApp AI Assistant with memory using n8n, Twilio and Google Gemini — handles customer conversations 24/7",
         "Built Google Maps Business Extractor using chained HTTP Request nodes and Google Maps API — generates live lead reports",
         "Built AI Document Processor — reads PDFs from Google Drive, extracts structured data, saves to Google Sheets automatically",
-        "Built AI Email Automation Pipeline — Google Forms trigger, AI segmentation, personalized Gmail delivery",
-        "Built CV Tailoring Agent — AI reads job offers and generates tailored CVs and cover letters automatically"
+        "Built AI Email Automation Pipeline — Google Forms trigger, AI segmentation, personalized Gmail delivery"
       ],
       "ai_selected_bullets": "AI picks 3-5 most relevant bullets from all_bullets"
     }
